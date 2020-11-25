@@ -6,7 +6,6 @@
 //
 
 import XCTest
-@testable import iOSArchitecturePatterns
 
 class iOSArchitecturePatternsTests: XCTestCase {
 

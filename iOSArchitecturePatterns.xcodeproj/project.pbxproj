@@ -15,23 +15,18 @@
 		EB99421F256EC6B00097E099 /* iOSArchitecturePatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99421E256EC6B00097E099 /* iOSArchitecturePatternsTests.swift */; };
 		EB99422A256EC6B00097E099 /* iOSArchitecturePatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994229256EC6B00097E099 /* iOSArchitecturePatternsUITests.swift */; };
 		EB99424D256EC8BC0097E099 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99420B256EC6AF0097E099 /* HomeViewController.swift */; };
-		EB99424E256EC8BC0097E099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994207256EC6AF0097E099 /* AppDelegate.swift */; };
 		EB994252256EC8BC0097E099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB994212256EC6B00097E099 /* LaunchScreen.storyboard */; };
 		EB994253256EC8BC0097E099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB994210256EC6B00097E099 /* Assets.xcassets */; };
 		EB994254256EC8BC0097E099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB99420D256EC6AF0097E099 /* Main.storyboard */; };
-		EB994263256EC8D50097E099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994207256EC6AF0097E099 /* AppDelegate.swift */; };
 		EB994267256EC8D50097E099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB994212256EC6B00097E099 /* LaunchScreen.storyboard */; };
 		EB994268256EC8D50097E099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB994210256EC6B00097E099 /* Assets.xcassets */; };
 		EB994269256EC8D50097E099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB99420D256EC6AF0097E099 /* Main.storyboard */; };
-		EB9942A0256EC8E30097E099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994207256EC6AF0097E099 /* AppDelegate.swift */; };
 		EB9942A4256EC8E30097E099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB994212256EC6B00097E099 /* LaunchScreen.storyboard */; };
 		EB9942A5256EC8E30097E099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB994210256EC6B00097E099 /* Assets.xcassets */; };
 		EB9942A6256EC8E30097E099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB99420D256EC6AF0097E099 /* Main.storyboard */; };
-		EB9942B7256EC8EB0097E099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994207256EC6AF0097E099 /* AppDelegate.swift */; };
 		EB9942BB256EC8EB0097E099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB994212256EC6B00097E099 /* LaunchScreen.storyboard */; };
 		EB9942BC256EC8EB0097E099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB994210256EC6B00097E099 /* Assets.xcassets */; };
 		EB9942BD256EC8EB0097E099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB99420D256EC6AF0097E099 /* Main.storyboard */; };
-		EB9942D6256EC92A0097E099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994207256EC6AF0097E099 /* AppDelegate.swift */; };
 		EB9942DA256EC92A0097E099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB994212256EC6B00097E099 /* LaunchScreen.storyboard */; };
 		EB9942DB256EC92A0097E099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB994210256EC6B00097E099 /* Assets.xcassets */; };
 		EB9942DC256EC92A0097E099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB99420D256EC6AF0097E099 /* Main.storyboard */; };
@@ -98,6 +93,11 @@
 		EB9944AA256EDE570097E099 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9944A4256EDE570097E099 /* HomeRouter.swift */; };
 		EB9944AB256EDE570097E099 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9944A6256EDE570097E099 /* HomeViewModel.swift */; };
 		EB9944BC256EDF340097E099 /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9944BB256EDF340097E099 /* MovieManager.swift */; };
+		EB9944F6256EE52F0097E099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9944F5256EE52F0097E099 /* AppDelegate.swift */; };
+		EB9944FF256EE5390097E099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9944FE256EE5390097E099 /* AppDelegate.swift */; };
+		EB994508256EE5450097E099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994507256EE5450097E099 /* AppDelegate.swift */; };
+		EB994511256EE54F0097E099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994510256EE54F0097E099 /* AppDelegate.swift */; };
+		EB99451A256EE55A0097E099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994519256EE55A0097E099 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,7 +117,6 @@
 		C50BA00EDCF92776320C7E27 /* Pods-iOSArchitecturePatterns.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchitecturePatterns.debug.xcconfig"; path = "Target Support Files/Pods-iOSArchitecturePatterns/Pods-iOSArchitecturePatterns.debug.xcconfig"; sourceTree = "<group>"; };
 		C71EADB6E14CDDA281902172 /* Pods-iOSArchitectureMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchitectureMVP.release.xcconfig"; path = "Target Support Files/Pods-iOSArchitectureMVP/Pods-iOSArchitectureMVP.release.xcconfig"; sourceTree = "<group>"; };
 		DEE5942809DC9355D7CA74E3 /* Pods_iOSArchitectureMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSArchitectureMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB994207256EC6AF0097E099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB99420B256EC6AF0097E099 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EB99420E256EC6AF0097E099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB994210256EC6B00097E099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -157,6 +156,11 @@
 		EB9944A4256EDE570097E099 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		EB9944A6256EDE570097E099 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		EB9944BB256EDF340097E099 /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
+		EB9944F5256EE52F0097E099 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB9944FE256EE5390097E099 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB994507256EE5450097E099 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB994510256EE54F0097E099 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB994519256EE55A0097E099 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBFE06FFD0BB2901570BBEDA /* Pods_iOSArchitectureMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSArchitectureMVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -283,7 +287,6 @@
 		EB994206256EC6AF0097E099 /* iOSArchitecturePatterns */ = {
 			isa = PBXGroup;
 			children = (
-				EB994207256EC6AF0097E099 /* AppDelegate.swift */,
 				EB994441256ED0CD0097E099 /* Resources */,
 				EB994391256ED0A10097E099 /* DataLayer */,
 			);
@@ -311,8 +314,9 @@
 		EB99430F256EC9770097E099 /* iOSArchitectureMVC */ = {
 			isa = PBXGroup;
 			children = (
-				EB99431B256ECA5B0097E099 /* Info.plist */,
 				EB99420B256EC6AF0097E099 /* HomeViewController.swift */,
+				EB9944F5256EE52F0097E099 /* AppDelegate.swift */,
+				EB99431B256ECA5B0097E099 /* Info.plist */,
 			);
 			path = iOSArchitectureMVC;
 			sourceTree = "<group>";
@@ -320,8 +324,9 @@
 		EB994310256EC9800097E099 /* iOSArchitectureMVP */ = {
 			isa = PBXGroup;
 			children = (
-				EB994330256ECA800097E099 /* Info.plist */,
 				EB99432F256ECA800097E099 /* HomeViewController.swift */,
+				EB994507256EE5450097E099 /* AppDelegate.swift */,
+				EB994330256ECA800097E099 /* Info.plist */,
 			);
 			path = iOSArchitectureMVP;
 			sourceTree = "<group>";
@@ -334,6 +339,7 @@
 				EB9944A5256EDE570097E099 /* ViewModel */,
 				EB9944A3256EDE570097E099 /* Router */,
 				EB9944BA256EDEFF0097E099 /* DataLayer */,
+				EB994510256EE54F0097E099 /* AppDelegate.swift */,
 				EB99433A256ECA8B0097E099 /* Info.plist */,
 			);
 			path = iOSArchitectureMVVM;
@@ -342,8 +348,9 @@
 		EB994312256EC9970097E099 /* iOSArchitectureVIPER */ = {
 			isa = PBXGroup;
 			children = (
-				EB994346256ECA970097E099 /* Info.plist */,
 				EB994345256ECA970097E099 /* HomeViewController.swift */,
+				EB994519256EE55A0097E099 /* AppDelegate.swift */,
+				EB994346256ECA970097E099 /* Info.plist */,
 			);
 			path = iOSArchitectureVIPER;
 			sourceTree = "<group>";
@@ -351,8 +358,9 @@
 		EB994313256EC9A30097E099 /* iOSArchitectureMVI */ = {
 			isa = PBXGroup;
 			children = (
-				EB994325256ECA6E0097E099 /* Info.plist */,
 				EB994324256ECA6E0097E099 /* HomeViewController.swift */,
+				EB9944FE256EE5390097E099 /* AppDelegate.swift */,
+				EB994325256ECA6E0097E099 /* Info.plist */,
 			);
 			path = iOSArchitectureMVI;
 			sourceTree = "<group>";
@@ -914,6 +922,7 @@
 				EB994470256ED2490097E099 /* MovieRequest.swift in Sources */,
 				EB9943D4256ED0A10097E099 /* SEBaseRequest.swift in Sources */,
 				EB9943E8256ED0A10097E099 /* SERepresentable.swift in Sources */,
+				EB9944F6256EE52F0097E099 /* AppDelegate.swift in Sources */,
 				EB9943D9256ED0A10097E099 /* SEBaseResponse.swift in Sources */,
 				EB99447D256ED2E60097E099 /* MovieModel.swift in Sources */,
 				EB99424D256EC8BC0097E099 /* HomeViewController.swift in Sources */,
@@ -922,7 +931,6 @@
 				EB9943CA256ED0A10097E099 /* SEDefault.swift in Sources */,
 				EB9943CF256ED0A10097E099 /* SENetworkManager.swift in Sources */,
 				EB9943FC256ED0A10097E099 /* BaseModel.swift in Sources */,
-				EB99424E256EC8BC0097E099 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -934,13 +942,13 @@
 				EB994331256ECA800097E099 /* HomeViewController.swift in Sources */,
 				EB9943E4256ED0A10097E099 /* SECodable.swift in Sources */,
 				EB9943D5256ED0A10097E099 /* SEBaseRequest.swift in Sources */,
+				EB994508256EE5450097E099 /* AppDelegate.swift in Sources */,
 				EB9943DF256ED0A10097E099 /* SEObserver.swift in Sources */,
 				EB9943D0256ED0A10097E099 /* SENetworkManager.swift in Sources */,
 				EB99447E256ED2E60097E099 /* MovieModel.swift in Sources */,
 				EB9943EE256ED0A10097E099 /* BaseRequest.swift in Sources */,
 				EB9943DA256ED0A10097E099 /* SEBaseResponse.swift in Sources */,
 				EB9943FD256ED0A10097E099 /* BaseModel.swift in Sources */,
-				EB994263256EC8D50097E099 /* AppDelegate.swift in Sources */,
 				EB9943E9256ED0A10097E099 /* SERepresentable.swift in Sources */,
 				EB9943CB256ED0A10097E099 /* SEDefault.swift in Sources */,
 			);
@@ -962,8 +970,8 @@
 				EB9943EF256ED0A10097E099 /* BaseRequest.swift in Sources */,
 				EB9943DB256ED0A10097E099 /* SEBaseResponse.swift in Sources */,
 				EB9944A9256EDE570097E099 /* HomeViewController.swift in Sources */,
+				EB994511256EE54F0097E099 /* AppDelegate.swift in Sources */,
 				EB9943FE256ED0A10097E099 /* BaseModel.swift in Sources */,
-				EB9942A0256EC8E30097E099 /* AppDelegate.swift in Sources */,
 				EB9943EA256ED0A10097E099 /* SERepresentable.swift in Sources */,
 				EB9944BC256EDF340097E099 /* MovieManager.swift in Sources */,
 				EB9943CC256ED0A10097E099 /* SEDefault.swift in Sources */,
@@ -978,13 +986,13 @@
 				EB994347256ECA970097E099 /* HomeViewController.swift in Sources */,
 				EB9943E6256ED0A10097E099 /* SECodable.swift in Sources */,
 				EB9943D7256ED0A10097E099 /* SEBaseRequest.swift in Sources */,
+				EB99451A256EE55A0097E099 /* AppDelegate.swift in Sources */,
 				EB9943E1256ED0A10097E099 /* SEObserver.swift in Sources */,
 				EB9943D2256ED0A10097E099 /* SENetworkManager.swift in Sources */,
 				EB994480256ED2E60097E099 /* MovieModel.swift in Sources */,
 				EB9943F0256ED0A10097E099 /* BaseRequest.swift in Sources */,
 				EB9943DC256ED0A10097E099 /* SEBaseResponse.swift in Sources */,
 				EB9943FF256ED0A10097E099 /* BaseModel.swift in Sources */,
-				EB9942B7256EC8EB0097E099 /* AppDelegate.swift in Sources */,
 				EB9943EB256ED0A10097E099 /* SERepresentable.swift in Sources */,
 				EB9943CD256ED0A10097E099 /* SEDefault.swift in Sources */,
 			);
@@ -998,13 +1006,13 @@
 				EB994326256ECA6E0097E099 /* HomeViewController.swift in Sources */,
 				EB9943E7256ED0A10097E099 /* SECodable.swift in Sources */,
 				EB9943D8256ED0A10097E099 /* SEBaseRequest.swift in Sources */,
+				EB9944FF256EE5390097E099 /* AppDelegate.swift in Sources */,
 				EB9943E2256ED0A10097E099 /* SEObserver.swift in Sources */,
 				EB9943D3256ED0A10097E099 /* SENetworkManager.swift in Sources */,
 				EB994481256ED2E60097E099 /* MovieModel.swift in Sources */,
 				EB9943F1256ED0A10097E099 /* BaseRequest.swift in Sources */,
 				EB9943DD256ED0A10097E099 /* SEBaseResponse.swift in Sources */,
 				EB994400256ED0A10097E099 /* BaseModel.swift in Sources */,
-				EB9942D6256EC92A0097E099 /* AppDelegate.swift in Sources */,
 				EB9943EC256ED0A10097E099 /* SERepresentable.swift in Sources */,
 				EB9943CE256ED0A10097E099 /* SEDefault.swift in Sources */,
 			);

@@ -1,6 +1,6 @@
 //
 //  HomeViewController.swift
-//  iOSArchitecturePatterns
+//  iOSArchitectureMVI
 //
 //  Created by Juan Pablo on 25/11/2020.
 //

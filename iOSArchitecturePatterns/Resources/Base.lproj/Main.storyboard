@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WoA-N7-8X9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WoA-N7-8X9">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Home View Controller-->
         <scene sceneID="bM1-Ww-cjM">
             <objects>
-                <viewController id="WoA-N7-8X9" customClass="HomeViewController" customModule="iOSArchitectureMVC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="WoA-N7-8X9" customClass="HomeViewController" customModule="iOSArchitectureVIPER" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="abb-Gu-lOW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,14 +30,14 @@
                                 </constraints>
                                 <state key="normal" image="lupa"/>
                                 <connections>
-                                    <action selector="searchAction:" destination="WoA-N7-8X9" eventType="touchUpInside" id="ath-yY-Pjj"/>
+                                    <action selector="searchAction:" destination="WoA-N7-8X9" eventType="touchUpInside" id="2At-j2-jHv"/>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XNc-Cf-CKH" userLabel="Movies Table View">
                                 <rect key="frame" x="20.5" y="98" width="373" height="764"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MoviesTableViewCell" rowHeight="186" id="e0R-Re-Qg3" userLabel="Movies Table View Cell" customClass="MoviesTableViewCell" customModule="Movies_App" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MoviesTableViewCell" rowHeight="186" id="e0R-Re-Qg3" userLabel="Movies Table View Cell" customClass="MoviesTableViewCell" customModule="iOSArchitectureMVC" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="373" height="186"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="e0R-Re-Qg3" id="sEb-ov-VnW">
@@ -129,7 +130,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstItem="om7-mg-dSe" firstAttribute="leading" secondItem="BSO-5A-Luh" secondAttribute="leading" constant="15" id="7yK-XV-gll"/>
                                                         <constraint firstAttribute="bottom" secondItem="om7-mg-dSe" secondAttribute="bottom" constant="10" id="C1p-Q4-nks"/>
@@ -151,14 +152,12 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
-                                            <outlet property="containerView" destination="BSO-5A-Luh" id="dJy-lk-3l1"/>
-                                            <outlet property="descriptionLbl" destination="WwO-9g-OwR" id="Ooc-oc-WXB"/>
-                                            <outlet property="genresLbl" destination="om7-mg-dSe" id="m7z-dg-UUp"/>
-                                            <outlet property="headerView" destination="AXB-OE-P1d" id="jq7-7G-Rnn"/>
-                                            <outlet property="originalTitleLbl" destination="ZAj-tp-6zR" id="CAw-5Z-dUi"/>
-                                            <outlet property="posterImageView" destination="ZYH-TJ-gCt" id="tiC-re-hOQ"/>
-                                            <outlet property="titleLbl" destination="akw-YG-pqv" id="IiR-XL-93h"/>
-                                            <outlet property="voteAvgLbl" destination="R3t-ef-7X1" id="23H-lN-gqG"/>
+                                            <outlet property="descriptionLbl" destination="WwO-9g-OwR" id="HSr-RL-erb"/>
+                                            <outlet property="genresLbl" destination="om7-mg-dSe" id="CJZ-lX-wZo"/>
+                                            <outlet property="originalTitleLbl" destination="ZAj-tp-6zR" id="HHY-Kf-6Hl"/>
+                                            <outlet property="posterImageView" destination="ZYH-TJ-gCt" id="5kt-nW-f4v"/>
+                                            <outlet property="titleLbl" destination="akw-YG-pqv" id="371-pJ-DGT"/>
+                                            <outlet property="voteAverageLbl" destination="R3t-ef-7X1" id="0QC-mf-opI"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -168,6 +167,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="CUZ-Cx-Pi7"/>
                         <color key="backgroundColor" red="0.59999999999999998" green="0.3921568627" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="XNc-Cf-CKH" firstAttribute="top" secondItem="TY9-ib-bER" secondAttribute="bottom" constant="20" id="0fs-y9-Zmm"/>
@@ -180,11 +180,10 @@
                             <constraint firstItem="TY9-ib-bER" firstAttribute="centerX" secondItem="CUZ-Cx-Pi7" secondAttribute="centerX" id="tA4-z2-HXi"/>
                             <constraint firstItem="XNc-Cf-CKH" firstAttribute="centerX" secondItem="CUZ-Cx-Pi7" secondAttribute="centerX" id="xSp-zN-naF"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="CUZ-Cx-Pi7"/>
                     </view>
                     <connections>
-                        <outlet property="moviesTableView" destination="XNc-Cf-CKH" id="r51-BW-vEE"/>
-                        <outlet property="searchBarTextfield" destination="TY9-ib-bER" id="J5D-Pa-1UH"/>
+                        <outlet property="moviesTableView" destination="XNc-Cf-CKH" id="sVw-wB-btS"/>
+                        <outlet property="searchBarTextfield" destination="TY9-ib-bER" id="Gdy-lj-tfs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KWC-pX-4o2" sceneMemberID="firstResponder"/>
@@ -193,6 +192,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="lupa" width="170" height="170"/>
+        <image name="lupa" width="170.5" height="170.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1807A0CE258A34E400625F85 /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807A0CD258A34E400625F85 /* MoviesTableViewCell.swift */; };
+		1807A0DE258A364200625F85 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807A0DD258A364200625F85 /* HomePresenter.swift */; };
+		1807A0E7258A367100625F85 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807A0E6258A367100625F85 /* HomeInteractor.swift */; };
+		1807A0F0258A367D00625F85 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807A0EF258A367D00625F85 /* HomeRouter.swift */; };
 		441D71A8B33F295B306013B5 /* Pods_iOSArchitectureVIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9ECE5CBC2D59FF828DBB7C /* Pods_iOSArchitectureVIPER.framework */; };
 		610DFB83241C5DB9CC601319 /* Pods_iOSArchitectureMVI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C328FA54286BFC8FF76C2D /* Pods_iOSArchitectureMVI.framework */; };
 		865139EDE5433D904246EF75 /* Pods_iOSArchitectureMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBFE06FFD0BB2901570BBEDA /* Pods_iOSArchitectureMVP.framework */; };
@@ -101,6 +105,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1807A0CD258A34E400625F85 /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
+		1807A0DD258A364200625F85 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		1807A0E6258A367100625F85 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		1807A0EF258A367D00625F85 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		1C9ECE5CBC2D59FF828DBB7C /* Pods_iOSArchitectureVIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSArchitectureVIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A63ECCF41FB26FBCC9DD95 /* Pods-iOSArchitectureVIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchitectureVIPER.release.xcconfig"; path = "Target Support Files/Pods-iOSArchitectureVIPER/Pods-iOSArchitectureVIPER.release.xcconfig"; sourceTree = "<group>"; };
 		28F2A86027410B5F081D81A2 /* Pods-iOSArchitectureMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchitectureMVP.debug.xcconfig"; path = "Target Support Files/Pods-iOSArchitectureMVP/Pods-iOSArchitectureMVP.debug.xcconfig"; sourceTree = "<group>"; };
@@ -349,6 +357,10 @@
 			isa = PBXGroup;
 			children = (
 				EB994345256ECA970097E099 /* HomeViewController.swift */,
+				1807A0E6258A367100625F85 /* HomeInteractor.swift */,
+				1807A0DD258A364200625F85 /* HomePresenter.swift */,
+				1807A0EF258A367D00625F85 /* HomeRouter.swift */,
+				1807A0CD258A34E400625F85 /* MoviesTableViewCell.swift */,
 				EB994519256EE55A0097E099 /* AppDelegate.swift */,
 				EB994346256ECA970097E099 /* Info.plist */,
 			);
@@ -985,15 +997,19 @@
 				EB994473256ED2490097E099 /* MovieRequest.swift in Sources */,
 				EB994347256ECA970097E099 /* HomeViewController.swift in Sources */,
 				EB9943E6256ED0A10097E099 /* SECodable.swift in Sources */,
+				1807A0E7258A367100625F85 /* HomeInteractor.swift in Sources */,
+				1807A0DE258A364200625F85 /* HomePresenter.swift in Sources */,
 				EB9943D7256ED0A10097E099 /* SEBaseRequest.swift in Sources */,
 				EB99451A256EE55A0097E099 /* AppDelegate.swift in Sources */,
 				EB9943E1256ED0A10097E099 /* SEObserver.swift in Sources */,
+				1807A0F0258A367D00625F85 /* HomeRouter.swift in Sources */,
 				EB9943D2256ED0A10097E099 /* SENetworkManager.swift in Sources */,
 				EB994480256ED2E60097E099 /* MovieModel.swift in Sources */,
 				EB9943F0256ED0A10097E099 /* BaseRequest.swift in Sources */,
 				EB9943DC256ED0A10097E099 /* SEBaseResponse.swift in Sources */,
 				EB9943FF256ED0A10097E099 /* BaseModel.swift in Sources */,
 				EB9943EB256ED0A10097E099 /* SERepresentable.swift in Sources */,
+				1807A0CE258A34E400625F85 /* MoviesTableViewCell.swift in Sources */,
 				EB9943CD256ED0A10097E099 /* SEDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,15 +16,21 @@ protocol HomeViewProtocol: class {
 }
 
 class HomeViewController: UIViewController, HomeViewProtocol {
-    @IBOutlet weak var searchBarTextfield: UITextField!
+    @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var moviesTableView: UITableView!
     
     var presenter: HomePresenterProtocol?
+    var isSearchActive : Bool = false
+    var moviesFiltered: [MovieModel] = []
     
     var movies: [MovieModel] = [] {
         didSet {
             moviesTableView.reloadData()
         }
+    }
+    
+    var moviesTableData: [MovieModel] {
+        return isSearchActive ? moviesFiltered : movies
     }
     
     @IBAction func searchAction(_ sender: UIButton) {
@@ -49,16 +55,45 @@ class HomeViewController: UIViewController, HomeViewProtocol {
     }
 }
 
+extension HomeViewController: UISearchBarDelegate {
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+        isSearchActive = true
+    }
+
+    func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
+        isSearchActive = false
+    }
+
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        isSearchActive = false
+    }
+
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        isSearchActive = false
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        moviesFiltered = movies.filter({ (movie) -> Bool in
+            let tmp = movie.title
+            let range = tmp?.localizedStandardContains(searchText) ?? false
+            return range
+        })
+        
+        isSearchActive = moviesFiltered.count != 0
+        moviesTableView.reloadData()
+    }
+}
+
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return movies.count
+        return moviesTableData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(
                 withIdentifier: "MoviesTableViewCell", for: indexPath) as? MoviesTableViewCell else { return UITableViewCell() }
         
-        cell.populate(with: movies[indexPath.row])
+        cell.populate(with: moviesTableData[indexPath.row])
         
         return cell
     }

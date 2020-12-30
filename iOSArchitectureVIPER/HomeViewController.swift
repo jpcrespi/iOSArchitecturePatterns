@@ -33,9 +33,6 @@ class HomeViewController: UIViewController, HomeViewProtocol {
         return isSearchActive ? moviesFiltered : movies
     }
     
-    @IBAction func searchAction(_ sender: UIButton) {
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -56,20 +53,35 @@ class HomeViewController: UIViewController, HomeViewProtocol {
 }
 
 extension HomeViewController: UISearchBarDelegate {
-    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+    func disableSearchStatus() {
+        isSearchActive = false
+        moviesTableView.reloadData()
+    }
+    
+    func enableSearchStatus() {
         isSearchActive = true
+        moviesTableView.reloadData()
+    }
+    
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+        if let text = searchBar.text, !text.isEmpty {
+            enableSearchStatus()
+        }
     }
 
     func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
-        isSearchActive = false
+        if let text = searchBar.text, !text.isEmpty {
+            disableSearchStatus()
+        }
     }
 
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        isSearchActive = false
+        searchBar.resignFirstResponder()
+        disableSearchStatus()
     }
 
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        isSearchActive = false
+        searchBar.resignFirstResponder()
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
@@ -93,6 +105,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(
                 withIdentifier: "MoviesTableViewCell", for: indexPath) as? MoviesTableViewCell else { return UITableViewCell() }
         
+        cell.selectionStyle = .none
         cell.populate(with: moviesTableData[indexPath.row])
         
         return cell

@@ -22,7 +22,10 @@ class MoviesTableViewCell: UITableViewCell {
         descriptionLbl.text = movie.overview
         
         // TODO: download poster image using API KEY
-        if let imageUrl = URL(string: movie.imageUrl ?? "") {
+        
+        let posterPath = "https://www.themoviedb.org/t/p/w1280\(movie.imageUrl ?? "")"
+        
+        if let imageUrl = URL(string: posterPath) {
             let task = URLSession.shared.dataTask(with: imageUrl) { (data, _, _) in
                 if let imageData = data, let image = UIImage(data: imageData) {
                     DispatchQueue.main.async {

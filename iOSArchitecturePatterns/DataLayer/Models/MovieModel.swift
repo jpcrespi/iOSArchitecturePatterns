@@ -25,7 +25,7 @@ struct MovieModel: BaseModel {
         case popularity
         case voteCount = "vote_count"
         case originalTitle = "original_title"
-        case voteAverage
+        case voteAverage = "vote_average"
         case overview
         case releaseDate = "release_date"
         case imageUrl = "poster_path"

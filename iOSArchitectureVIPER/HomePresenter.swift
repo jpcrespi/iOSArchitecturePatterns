@@ -17,6 +17,8 @@ protocol HomePresenterProtocol: class {
     func getPopularMovies()
     func getPopularMoviesSuccess(movies: [MovieModel])
     func getPopularMoviesFailed(error: String)
+
+    func searchMovies(_ string: String) -> [MovieModel]
 }
 
 class HomePresenter: HomePresenterProtocol {
@@ -31,10 +33,19 @@ class HomePresenter: HomePresenterProtocol {
     }
     
     func getPopularMoviesSuccess(movies: [MovieModel]) {
-        view?.getPopularMoviesSuccess(movies: movies)
+        self.movies = movies
+        view?.getPopularMoviesSuccess()
     }
     
     func getPopularMoviesFailed(error: String) {
         view?.getPopularMoviesFailed(error: error)
+    }
+    
+    func searchMovies(_ string: String) -> [MovieModel] {
+        return movies.filter({ (movie) -> Bool in
+            let tmp = movie.title
+            let range = tmp?.localizedStandardContains(string) ?? false
+            return range
+        })
     }
 }

@@ -11,7 +11,7 @@ protocol HomeViewProtocol: class {
     var presenter: HomePresenterProtocol? { get set }
     
     func getPopularMovies()
-    func getPopularMoviesSuccess(movies: [MovieModel])
+    func getPopularMoviesSuccess()
     func getPopularMoviesFailed(error: String)
 }
 
@@ -43,8 +43,8 @@ class HomeViewController: UIViewController, HomeViewProtocol {
         presenter?.getPopularMovies()
     }
     
-    func getPopularMoviesSuccess(movies: [MovieModel]) {
-        self.movies = movies
+    func getPopularMoviesSuccess() {
+        self.movies = presenter?.movies ?? []
     }
     
     func getPopularMoviesFailed(error: String) {
@@ -70,7 +70,7 @@ extension HomeViewController: UISearchBarDelegate {
     }
 
     func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
-        if let text = searchBar.text, !text.isEmpty {
+        if let text = searchBar.text, text.isEmpty {
             disableSearchStatus()
         }
     }
@@ -85,13 +85,8 @@ extension HomeViewController: UISearchBarDelegate {
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        moviesFiltered = movies.filter({ (movie) -> Bool in
-            let tmp = movie.title
-            let range = tmp?.localizedStandardContains(searchText) ?? false
-            return range
-        })
-        
-        isSearchActive = moviesFiltered.count != 0
+        moviesFiltered = presenter?.searchMovies(searchText) ?? []
+        isSearchActive = true
         moviesTableView.reloadData()
     }
 }

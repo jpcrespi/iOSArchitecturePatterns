@@ -47,11 +47,6 @@
                                                                         <constraint firstAttribute="height" constant="130" id="MSp-JP-LO9"/>
                                                                         <constraint firstAttribute="width" secondItem="ZYH-TJ-gCt" secondAttribute="height" multiplier="2:3" id="ae8-WP-H5E"/>
                                                                     </constraints>
-                                                                    <userDefinedRuntimeAttributes>
-                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                            <integer key="value" value="15"/>
-                                                                        </userDefinedRuntimeAttribute>
-                                                                    </userDefinedRuntimeAttributes>
                                                                 </imageView>
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XLf-hq-7kK" userLabel="Vote Avg View">
                                                                     <rect key="frame" x="56.5" y="110" width="30" height="20"/>
@@ -89,7 +84,7 @@
                                                                     <color key="textColor" red="0.3411764706" green="0.3411764706" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripcion Descripcion Descripcion de la Descripcion Descripcion Descripcion entre Descripcion para la Descripcion" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="WwO-9g-OwR" userLabel="Description Lbl">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripcion Descripcion Descripcion de la Descripcion Descripcion Descripcion entre Descripcion para la Descripcion" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="WwO-9g-OwR" userLabel="Description Lbl">
                                                                     <rect key="frame" x="96.5" y="54" width="271.5" height="36"/>
                                                                     <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
                                                                     <nil key="textColor"/>
@@ -143,6 +138,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
+                                            <outlet property="containerView" destination="BSO-5A-Luh" id="xQ9-oH-i7P"/>
                                             <outlet property="descriptionLbl" destination="WwO-9g-OwR" id="HSr-RL-erb"/>
                                             <outlet property="genresLbl" destination="om7-mg-dSe" id="CJZ-lX-wZo"/>
                                             <outlet property="originalTitleLbl" destination="ZAj-tp-6zR" id="HHY-Kf-6Hl"/>

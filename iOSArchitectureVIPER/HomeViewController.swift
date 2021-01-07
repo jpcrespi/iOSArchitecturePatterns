@@ -35,8 +35,13 @@ class HomeViewController: UIViewController, HomeViewProtocol {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupUI()
         getPopularMovies()
+    }
+
+    func setupUI() {
+        searchBar.layer.cornerRadius = 15
+        searchBar.layer.masksToBounds = true
     }
     
     func getPopularMovies() {
@@ -101,6 +106,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
                 withIdentifier: "MoviesTableViewCell", for: indexPath) as? MoviesTableViewCell else { return UITableViewCell() }
         
         cell.selectionStyle = .none
+        cell.setupUI()
         cell.populate(with: moviesTableData[indexPath.row])
         
         return cell

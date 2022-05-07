@@ -33,41 +33,6 @@
 		EB994326256ECA6E0097E099 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994324256ECA6E0097E099 /* HomeViewController.swift */; };
 		EB994331256ECA800097E099 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99432F256ECA800097E099 /* HomeViewController.swift */; };
 		EB994347256ECA970097E099 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994345256ECA970097E099 /* HomeViewController.swift */; };
-		EB9943CA256ED0A10097E099 /* SEDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994399256ED0A10097E099 /* SEDefault.swift */; };
-		EB9943CB256ED0A10097E099 /* SEDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994399256ED0A10097E099 /* SEDefault.swift */; };
-		EB9943CC256ED0A10097E099 /* SEDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994399256ED0A10097E099 /* SEDefault.swift */; };
-		EB9943CD256ED0A10097E099 /* SEDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994399256ED0A10097E099 /* SEDefault.swift */; };
-		EB9943CE256ED0A10097E099 /* SEDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB994399256ED0A10097E099 /* SEDefault.swift */; };
-		EB9943CF256ED0A10097E099 /* SENetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439A256ED0A10097E099 /* SENetworkManager.swift */; };
-		EB9943D0256ED0A10097E099 /* SENetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439A256ED0A10097E099 /* SENetworkManager.swift */; };
-		EB9943D1256ED0A10097E099 /* SENetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439A256ED0A10097E099 /* SENetworkManager.swift */; };
-		EB9943D2256ED0A10097E099 /* SENetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439A256ED0A10097E099 /* SENetworkManager.swift */; };
-		EB9943D3256ED0A10097E099 /* SENetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439A256ED0A10097E099 /* SENetworkManager.swift */; };
-		EB9943D4256ED0A10097E099 /* SEBaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439B256ED0A10097E099 /* SEBaseRequest.swift */; };
-		EB9943D5256ED0A10097E099 /* SEBaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439B256ED0A10097E099 /* SEBaseRequest.swift */; };
-		EB9943D6256ED0A10097E099 /* SEBaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439B256ED0A10097E099 /* SEBaseRequest.swift */; };
-		EB9943D7256ED0A10097E099 /* SEBaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439B256ED0A10097E099 /* SEBaseRequest.swift */; };
-		EB9943D8256ED0A10097E099 /* SEBaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439B256ED0A10097E099 /* SEBaseRequest.swift */; };
-		EB9943D9256ED0A10097E099 /* SEBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439C256ED0A10097E099 /* SEBaseResponse.swift */; };
-		EB9943DA256ED0A10097E099 /* SEBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439C256ED0A10097E099 /* SEBaseResponse.swift */; };
-		EB9943DB256ED0A10097E099 /* SEBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439C256ED0A10097E099 /* SEBaseResponse.swift */; };
-		EB9943DC256ED0A10097E099 /* SEBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439C256ED0A10097E099 /* SEBaseResponse.swift */; };
-		EB9943DD256ED0A10097E099 /* SEBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439C256ED0A10097E099 /* SEBaseResponse.swift */; };
-		EB9943DE256ED0A10097E099 /* SEObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439D256ED0A10097E099 /* SEObserver.swift */; };
-		EB9943DF256ED0A10097E099 /* SEObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439D256ED0A10097E099 /* SEObserver.swift */; };
-		EB9943E0256ED0A10097E099 /* SEObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439D256ED0A10097E099 /* SEObserver.swift */; };
-		EB9943E1256ED0A10097E099 /* SEObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439D256ED0A10097E099 /* SEObserver.swift */; };
-		EB9943E2256ED0A10097E099 /* SEObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439D256ED0A10097E099 /* SEObserver.swift */; };
-		EB9943E3256ED0A10097E099 /* SECodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439E256ED0A10097E099 /* SECodable.swift */; };
-		EB9943E4256ED0A10097E099 /* SECodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439E256ED0A10097E099 /* SECodable.swift */; };
-		EB9943E5256ED0A10097E099 /* SECodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439E256ED0A10097E099 /* SECodable.swift */; };
-		EB9943E6256ED0A10097E099 /* SECodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439E256ED0A10097E099 /* SECodable.swift */; };
-		EB9943E7256ED0A10097E099 /* SECodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439E256ED0A10097E099 /* SECodable.swift */; };
-		EB9943E8256ED0A10097E099 /* SERepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439F256ED0A10097E099 /* SERepresentable.swift */; };
-		EB9943E9256ED0A10097E099 /* SERepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439F256ED0A10097E099 /* SERepresentable.swift */; };
-		EB9943EA256ED0A10097E099 /* SERepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439F256ED0A10097E099 /* SERepresentable.swift */; };
-		EB9943EB256ED0A10097E099 /* SERepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439F256ED0A10097E099 /* SERepresentable.swift */; };
-		EB9943EC256ED0A10097E099 /* SERepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99439F256ED0A10097E099 /* SERepresentable.swift */; };
 		EB9943ED256ED0A10097E099 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9943A1256ED0A10097E099 /* BaseRequest.swift */; };
 		EB9943EE256ED0A10097E099 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9943A1256ED0A10097E099 /* BaseRequest.swift */; };
 		EB9943EF256ED0A10097E099 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9943A1256ED0A10097E099 /* BaseRequest.swift */; };
@@ -140,13 +105,6 @@
 		EB99433A256ECA8B0097E099 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB994345256ECA970097E099 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EB994346256ECA970097E099 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB994399256ED0A10097E099 /* SEDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEDefault.swift; sourceTree = "<group>"; };
-		EB99439A256ED0A10097E099 /* SENetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SENetworkManager.swift; sourceTree = "<group>"; };
-		EB99439B256ED0A10097E099 /* SEBaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEBaseRequest.swift; sourceTree = "<group>"; };
-		EB99439C256ED0A10097E099 /* SEBaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEBaseResponse.swift; sourceTree = "<group>"; };
-		EB99439D256ED0A10097E099 /* SEObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEObserver.swift; sourceTree = "<group>"; };
-		EB99439E256ED0A10097E099 /* SECodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SECodable.swift; sourceTree = "<group>"; };
-		EB99439F256ED0A10097E099 /* SERepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SERepresentable.swift; sourceTree = "<group>"; };
 		EB9943A1256ED0A10097E099 /* BaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
 		EB9943A5256ED0A10097E099 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		EB99446F256ED2490097E099 /* MovieRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRequest.swift; sourceTree = "<group>"; };
@@ -368,25 +326,10 @@
 		EB994391256ED0A10097E099 /* DataLayer */ = {
 			isa = PBXGroup;
 			children = (
-				EB994398256ED0A10097E099 /* Helpers */,
 				EB9943A0256ED0A10097E099 /* Services */,
 				EB9943A2256ED0A10097E099 /* Models */,
 			);
 			path = DataLayer;
-			sourceTree = "<group>";
-		};
-		EB994398256ED0A10097E099 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				EB994399256ED0A10097E099 /* SEDefault.swift */,
-				EB99439A256ED0A10097E099 /* SENetworkManager.swift */,
-				EB99439B256ED0A10097E099 /* SEBaseRequest.swift */,
-				EB99439C256ED0A10097E099 /* SEBaseResponse.swift */,
-				EB99439D256ED0A10097E099 /* SEObserver.swift */,
-				EB99439E256ED0A10097E099 /* SECodable.swift */,
-				EB99439F256ED0A10097E099 /* SERepresentable.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		EB9943A0256ED0A10097E099 /* Services */ = {
@@ -920,16 +863,9 @@
 			files = (
 				EB9943ED256ED0A10097E099 /* BaseRequest.swift in Sources */,
 				EB994470256ED2490097E099 /* MovieRequest.swift in Sources */,
-				EB9943D4256ED0A10097E099 /* SEBaseRequest.swift in Sources */,
-				EB9943E8256ED0A10097E099 /* SERepresentable.swift in Sources */,
 				EB9944F6256EE52F0097E099 /* AppDelegate.swift in Sources */,
-				EB9943D9256ED0A10097E099 /* SEBaseResponse.swift in Sources */,
 				EB99447D256ED2E60097E099 /* MovieModel.swift in Sources */,
 				EB99424D256EC8BC0097E099 /* HomeViewController.swift in Sources */,
-				EB9943DE256ED0A10097E099 /* SEObserver.swift in Sources */,
-				EB9943E3256ED0A10097E099 /* SECodable.swift in Sources */,
-				EB9943CA256ED0A10097E099 /* SEDefault.swift in Sources */,
-				EB9943CF256ED0A10097E099 /* SENetworkManager.swift in Sources */,
 				EB9943FC256ED0A10097E099 /* BaseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -940,17 +876,10 @@
 			files = (
 				EB994471256ED2490097E099 /* MovieRequest.swift in Sources */,
 				EB994331256ECA800097E099 /* HomeViewController.swift in Sources */,
-				EB9943E4256ED0A10097E099 /* SECodable.swift in Sources */,
-				EB9943D5256ED0A10097E099 /* SEBaseRequest.swift in Sources */,
 				EB994508256EE5450097E099 /* AppDelegate.swift in Sources */,
-				EB9943DF256ED0A10097E099 /* SEObserver.swift in Sources */,
-				EB9943D0256ED0A10097E099 /* SENetworkManager.swift in Sources */,
 				EB99447E256ED2E60097E099 /* MovieModel.swift in Sources */,
 				EB9943EE256ED0A10097E099 /* BaseRequest.swift in Sources */,
-				EB9943DA256ED0A10097E099 /* SEBaseResponse.swift in Sources */,
 				EB9943FD256ED0A10097E099 /* BaseModel.swift in Sources */,
-				EB9943E9256ED0A10097E099 /* SERepresentable.swift in Sources */,
-				EB9943CB256ED0A10097E099 /* SEDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -960,21 +889,14 @@
 			files = (
 				EB9944AB256EDE570097E099 /* HomeViewModel.swift in Sources */,
 				EB994472256ED2490097E099 /* MovieRequest.swift in Sources */,
-				EB9943E5256ED0A10097E099 /* SECodable.swift in Sources */,
-				EB9943D6256ED0A10097E099 /* SEBaseRequest.swift in Sources */,
-				EB9943E0256ED0A10097E099 /* SEObserver.swift in Sources */,
-				EB9943D1256ED0A10097E099 /* SENetworkManager.swift in Sources */,
 				EB99447F256ED2E60097E099 /* MovieModel.swift in Sources */,
 				EB9944AA256EDE570097E099 /* HomeRouter.swift in Sources */,
 				EB9944A8256EDE570097E099 /* HomeModel.swift in Sources */,
 				EB9943EF256ED0A10097E099 /* BaseRequest.swift in Sources */,
-				EB9943DB256ED0A10097E099 /* SEBaseResponse.swift in Sources */,
 				EB9944A9256EDE570097E099 /* HomeViewController.swift in Sources */,
 				EB994511256EE54F0097E099 /* AppDelegate.swift in Sources */,
 				EB9943FE256ED0A10097E099 /* BaseModel.swift in Sources */,
-				EB9943EA256ED0A10097E099 /* SERepresentable.swift in Sources */,
 				EB9944BC256EDF340097E099 /* MovieManager.swift in Sources */,
-				EB9943CC256ED0A10097E099 /* SEDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -984,17 +906,10 @@
 			files = (
 				EB994473256ED2490097E099 /* MovieRequest.swift in Sources */,
 				EB994347256ECA970097E099 /* HomeViewController.swift in Sources */,
-				EB9943E6256ED0A10097E099 /* SECodable.swift in Sources */,
-				EB9943D7256ED0A10097E099 /* SEBaseRequest.swift in Sources */,
 				EB99451A256EE55A0097E099 /* AppDelegate.swift in Sources */,
-				EB9943E1256ED0A10097E099 /* SEObserver.swift in Sources */,
-				EB9943D2256ED0A10097E099 /* SENetworkManager.swift in Sources */,
 				EB994480256ED2E60097E099 /* MovieModel.swift in Sources */,
 				EB9943F0256ED0A10097E099 /* BaseRequest.swift in Sources */,
-				EB9943DC256ED0A10097E099 /* SEBaseResponse.swift in Sources */,
 				EB9943FF256ED0A10097E099 /* BaseModel.swift in Sources */,
-				EB9943EB256ED0A10097E099 /* SERepresentable.swift in Sources */,
-				EB9943CD256ED0A10097E099 /* SEDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1004,17 +919,10 @@
 			files = (
 				EB994474256ED2490097E099 /* MovieRequest.swift in Sources */,
 				EB994326256ECA6E0097E099 /* HomeViewController.swift in Sources */,
-				EB9943E7256ED0A10097E099 /* SECodable.swift in Sources */,
-				EB9943D8256ED0A10097E099 /* SEBaseRequest.swift in Sources */,
 				EB9944FF256EE5390097E099 /* AppDelegate.swift in Sources */,
-				EB9943E2256ED0A10097E099 /* SEObserver.swift in Sources */,
-				EB9943D3256ED0A10097E099 /* SENetworkManager.swift in Sources */,
 				EB994481256ED2E60097E099 /* MovieModel.swift in Sources */,
 				EB9943F1256ED0A10097E099 /* BaseRequest.swift in Sources */,
-				EB9943DD256ED0A10097E099 /* SEBaseResponse.swift in Sources */,
 				EB994400256ED0A10097E099 /* BaseModel.swift in Sources */,
-				EB9943EC256ED0A10097E099 /* SERepresentable.swift in Sources */,
-				EB9943CE256ED0A10097E099 /* SEDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

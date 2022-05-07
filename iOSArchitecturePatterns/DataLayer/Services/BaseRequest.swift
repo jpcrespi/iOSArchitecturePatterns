@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SwiftExtension
 
 //class {Name}Request: BaseRequest<{ModelToSend}, {Name}Request.Data, {RequestResponseType}> {
 //
